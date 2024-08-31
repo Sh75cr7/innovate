@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovate</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paprika-regular {
+  font-family: "Paprika", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.carousel-item {
+            min-width: 100%;
+            transition: transform 0.5s ease;
+        }
+
+        .carousel-inner {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+        }
+
+</style>
+<body>
+   <header class=>
+   <div class="bg-[#6B62C5] h-full w-full relative">
+    <nav class="bg-[#160C6D] container">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+               
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex flex-shrink-0 items-center">
+                <img class="h-8 w-auto" src="images/Logo.png" alt="Your Company">
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-9">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-[#1BBF00]">About</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-[#1BBF00]">Service</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-[#1BBF00]">Portfolio</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-[#1BBF00]">Price</a>
+                  <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-[#1BBF00]">Blog</a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-[#1BBF00] hover:text-white">Contact Us</a>
+          </div>
+        </div>
+      
+      </nav>
+      <div class="bg-[#4639d1]">
+        <img src="./images/banner.jpg" alt="" class="w-full h-full object-cover absolute mix-blend-overlay">
+        <div class="p-24 text-center container">
+            <h1 class=" mt-[136px] text-[84px] font-bold text-[#FAFAFE] leading-[100px] Open Sans
+            ">YOU’RE UNIQUE.YOU R <br>WEBSITE SHOULD BE TOO</h1>
+            <p class="text-[24px] font-[400px] text-[#E6E5F3] leading-[24px] w-[715px] inline-block mt-5 paprika-regular">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
+          <div class="mt-4 mb-[200px] text-[20px] font-bold text-[#FFFFFF] leading-[24px] Open Sans ">
+            <button class="border-2 border-[#1BBF00] rounded-full px-[20px] py-[10px]  bg-[#1BBF00]">get free quoto</button>
+            <button class="border-2 border-[#1BBF00] rounded-full px-[20px] py-[10px] hover:bg-[#1BBF00] hover:text-white">Learn More</button>
+          </div>
+        </div>
+    </div>
+   </div>
+   </header>
+   <!-- banner end-->
+  
+   <main class="bg-[#F9F9FB]">
+    <div class="container ">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-[200px] ">
+        <div class="ml-12 mb-[200px]">
+          <h1 class="text-[64px] font-extrabold text-[#1BBF00] leading-[68px] Open Sans">53k</h1>
+          <h2 class="text-[36px] mt-5 font-bold text-[#141135] leading-[40px] Open Sans">Happy client</h2>
+        </div>
+        <div>
+          <h1 class="text-[64px] font-extrabold text-[#1BBF00] leading-[68px] Open Sans">10k</h1>
+          <h2 class="text-[36px] mt-5 font-bold text-[#141135] leading-[40px] Open Sans">Projects Done</h2>
+        </div>
+        <div>
+          <h1 class="text-[64px] font-extrabold text-[#1BBF00] leading-[68px] Open Sans">120+</h1>
+          <h2 class="text-[36px] mt-5 font-bold text-[#141135] leading-[40px] Open Sans">Gets Award</h2>
+        </div>
+        <div>
+          <h1 class="text-[64px] font-extrabold text-[#1BBF00] leading-[68px] Open Sans">16</h1>
+          <h2 class="text-[36px] mt-5 font-bold text-[#141135] leading-[40px] Open Sans">operated years</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[180px]">
+        <div class="bg-[#ffff] mb-32 ">
+          <div class=" w-[560px] h-[144px] hover:bg-[#A2A9C026] shadow-2xl mb-5">
+            <div class="flex gap-[37px] w-[394px] pt-8 ml-[28px]">
+              <img class="w-[38px] h-[25px] mt-5" src="./images/us.png" alt="">
+              <p class="text-[18px] font-[400px] text-[#726E9E] leading-[36px] paprika-regular">We solve real-world problems through people and the web.</p>
+            </div>
+          </div>
+          <div class=" w-[560px] h-[144px] hover:bg-[#A2A9C026] shadow-2xl mb-5">
+            <div class="flex gap-[37px] w-[394px] pt-8 ml-[28px]">
+              <img class="w-[38px] h-[25px] mt-5" src="./images/us.png" alt="">
+              <p class="text-[18px] font-[400px] text-[#726E9E] leading-[36px] paprika-regular">We make processes and technology work efficiently together.</p>
+            </div>
+          </div>
+          <div class=" w-[560px] h-[144px] hover:bg-[#A2A9C026] shadow-2xl mb-5">
+            <div class="flex gap-[37px] w-[394px] pt-8 ml-[28px]">
+              <img class="w-[38px] h-[25px] mt-5" src="./images/us.png" alt="">
+              <p class="text-[18px] font-[400px] text-[#726E9E] leading-[36px] paprika-regular">We advance improve existing technology through research and development.</p>
+            </div>
+          </div>
+          <div class=" w-[560px] h-[144px] hover:bg-[#A2A9C026] shadow-2xl">
+            <div class="flex gap-[37px] w-[394px] pt-8 ml-[28px]">
+              <img class="w-[38px] h-[25px] mt-5" src="./images/us.png" alt="">
+              <p class="text-[18px] font-[400px] text-[#726E9E] leading-[36px] paprika-regular">We develop long-lasting and scalable solutions, relationships partnerships.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-[48px] font-bold text-[#141135] leading-[66px] font-Sans mb-3">Why Choose Us</h2>
+          <p class="text-[18px] font-[400px] text-[#726E9E] leading-[30px] paprika-regular mb-[40px]">We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.</p>
+          <button class="bg-[#1BBF00] py-[20px] px-6 rounded-full text-[20px] font-bold text-[#F9F9F9] leading-[24px] font-Sans">Contact Us</button>
+        </div>
+      </div>
+    </div>
+   </main>
+   <div class="bg-[#F6F5FF]">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-24">
+        <div>
+          <h2 class="text-[48px] font-bold text-[#141135] leading-[66px] font-Sans mb-3">What We Do</h2>
+          <p class="text-[18px] font-[400px] text-[#726E9E] leading-[30px] paprika-regular mb-[40px]">We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
+          <button class="bg-[#1BBF00] py-[20px] px-6 rounded-full text-[20px] font-bold text-[#F9F9F9] leading-[24px] font-Sans">Contact Us</button>
+        </div>
+        <!-- card 1 -->
+        <div class="card  shadow-xl hover:bg-[#6B62C5] ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/box.png"
+              alt="box"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center ">
+            <h2 class="card-title text-[30px] font-bold text-[#141135] leading-[36px] font-Sans">web Design & Dev </h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular hover:text-[#ffff] ">Social Media has changed the way we interact & do business while creating</p>
+            <p class="text-[18pxpx] font-bold text-[#141135] leading-[24pxpx] font-Sans relative mt-2 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-20 absolute mt-36">
+            
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card  shadow-xl hover:bg-[#6B62C5]">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/software.png"
+              alt="box"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center ">
+            <h2 class="card-title text-[30px] font-bold text-[#141135] leading-[36px] font-Sans">Software Dev </h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular hover:text-[#ffff] ">Content Marketing is the other fold of online advertisement. If you are looking to build</p>
+            <p class="text-[18pxpx] font-bold text-[#141135] leading-[24pxpx] font-Sans relative mt-2 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-20 absolute mt-36 ">
+            
+          </div>
+        </div>
+        <!-- crdd 3 -->
+        <div class="card  shadow-xl hover:bg-[#6B62C5]">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/content.png"
+              alt="box"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center ">
+            <h2 class="card-title text-[30px] font-bold text-[#141135] leading-[36px] font-Sans">Content Writing </h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular hover:text-[#ffff] ">Social Media has changed the way we interact & do business while creating a new avenue.</p>
+            <p class="text-[18pxpx] font-bold text-[#141135] leading-[24pxpx] font-Sans relative mt-2 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-20 absolute mt-36 ">
+            
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card  shadow-xl hover:bg-[#6B62C5]">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/social-media .png"
+              alt="box"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center ">
+            <h2 class="card-title text-[30px] font-bold text-[#141135] leading-[36px] font-Sans">Digital Marketing</h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular hover:text-[#ffff] ">Social Media has changed the way we interact & do business while creating a new avenue.</p>
+            <p class="text-[18pxpx] font-bold text-[#141135] leading-[24pxpx] font-Sans relative mt-2 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-20 absolute mt-36 ">
+            
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="card  shadow-xl hover:bg-[#6B62C5]">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/support.png"
+              alt="box"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center ">
+            <h2 class="card-title text-[30px] font-bold text-[#141135] leading-[36px] font-Sans">Support & Training </h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular hover:text-[#ffff] ">Content Marketing is the other fold of online advertisement. If you are looking to build</p>
+            <p class="text-[18pxpx] font-bold text-[#141135] leading-[24pxpx] font-Sans relative mt-2 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-20 absolute mt-36 ">   
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- We create real impact part -->
+    <div class="bg-[#FFFFFF]">
+      <div class="container">
+        <div class="pt-10 items-center text-center">
+          <h1 class="text-[48px] font-bold text-[#141135] leading-[65px] font-Sans">We create real impact</h1>
+          <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular mt-[23px] pb-[75px]">We design, build and support websites and apps for <br>clients worldwide. Create beautiful, eye-catching on-page <br>messages without the need for a developer.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+        <div>
+          <div class="">
+            <div class="flex">
+             <img class="w-[63px] h-[63px]" src="./images/icon1.png" alt="">
+             <h2 class="text-[30px] font-bold text-[#141135] leading-[36px] font-Sans ml-5">Competitive analysis</h2>
+            </div>
+             <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular ml-20">With an all-new look and powerful <br>
+                features, Ekko is the best way to <br> ensure success for your business.</p>
+           </div>
+           <div class="mt-8">
+            <div class="flex">
+             <img class="w-[63px] h-[63px]" src="./images/icon2.svg" alt="">
+             <h2 class="text-[30px] font-bold text-[#141135] leading-[36px] font-Sans ml-5">Strategy And research</h2>
+            </div>
+             <p class="text-[18px] font-[400px] text-[#141135] leading-[30px] paprika-regular ml-20">Save money and start building <br> your website using the best <br> tools available on the market today.</p>
+           </div>
+        </div>
+          <div>
+            <img src="./images/impact.png" alt="">
+          </div>
+        </div>  
+      </div>
+    </div>
+    <!-- Choose The Right Plan part -->
+    <div class="bg-[#F9F9FB]">
+      <div class="container mb-[100px]">
+        <h1 class="text-[48px] font-bold text-[#141135] leading-[65x] font-Sans text-center">Choose The Right Plan</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-6 ">
+          <div class="items-center text-center bg-[#FFFFFF] shadow-xl hover:bg-[#6B62C5] rounded-xl ">
+            <h2 class="text-[30px] pt-6 font-bold text-[#141135] leading-[36x] font-Sans hover:text-[#ffff] ">Basic</h2>
+            <img class="mt-5  w-full" src="./images//plan1.png" alt="">
+            <h2 class="text-[48px] font-bold text-[#1BBF00] leading-[50x] font-Sans" >$160 </h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[32px] paprika-regular hover:text-[#ffff] mb-10"> Responsive Design <br>
+              Dynamic Elements <br>
+              Service Pages <br>
+              Custom Design & Features</p>
+          </div>
+          <div class="items-center text-center bg-[#FFFFFF] shadow-xl hover:bg-[#6B62C5] rounded-xl">
+            <h2 class="text-[30px] pt-6 font-bold text-[#141135] leading-[36x] font-Sans hover:text-[#ffff] ">Professional</h2>
+            <img class="mt-5  w-full" src="./images//plan2.png" alt="">
+            <h2 class="text-[48px] font-bold text-[#1BBF00] leading-[50x] font-Sans" >$260 </h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[32px] paprika-regular hover:text-[#ffff]"> Responsive Design <br>
+              Dynamic Elements <br>
+              Service Pages <br>
+              Custom Design & Features</p>
+          </div>
+          <div class="items-center text-center bg-[#FFFFFF] shadow-xl hover:bg-[#6B62C5] rounded-xl">
+            <h2 class="text-[30px] pt-6 font-bold text-[#141135] leading-[36x] font-Sans hover:text-[#ffff] ">Exclusive</h2>
+            <img class="mt-5  w-full" src="./images//plan3.png" alt="">
+            <h2 class="text-[48px] font-bold text-[#1BBF00] leading-[50x] font-Sans" >$325</h2>
+            <p class="text-[18px] font-[400px] text-[#141135] leading-[32px] paprika-regular hover:text-[#ffff]"> Responsive Design <br>
+              Dynamic Elements <br>
+              Service Pages <br>
+              Custom Design & Features</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- What The People Thinks About Us  -->
+     <div class="bg-[#F8F8FF]">
+      <div class="container">
+        <h2 class="text-[48px] pt-[100px] font-bold text-[#141135] leading-[65x] font-Sans text-center">What The People Thinks About Us </h2>
+        <!-- carosol -->
+        <div class="w-full max-w-3xl mx-auto relative mt-9 mb-16">
+          <div class="carousel-inner">
+              <!-- Carousel Item 1 -->
+              <div class="carousel-item shadow-2xl rounded-xl bg-[#fff]">
+                  <img src="images/review1.png" alt="Slide 1" class="ml-[30%] mb-40">
+                  <div class="absolute bottom-0 items-center text-center left-0 right-0 mt-[100px] text-white">
+                      <h2 class="text-xl text-[#FF7628]"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h2>
+                      <p class="text-[18px] font-[400px] text-[#141135] leading-[32px] paprika-regular">Lesser Replenish bearing they’re him cattle kind dominion. You <br>
+                        which fill place. Land she’d subdue divided gathering blessed <br>
+                        seasons it. Without, wherein day</p>
+                        <h3 class="mt-8 text-[25px]  font-semibold text-[#141135] leading-[40x] font-Sans">Lukan Depina</h3>
+                        <p class="text-[16px] font-[400px] text-[#726E9E] leading-[25px] paprika-regular">Ceo And Head Of Idea</p>
+                  </div>
+              </div>
+  
+              <!-- Carousel Item 2 -->
+            
+              <div class="carousel-item shadow-2xl rounded-xl bg-[#fff]">
+                <img src="images/review1.png" alt="Slide 1" class="ml-[30%] mb-40">
+                <div class="absolute bottom-0 items-center text-center left-0 right-0 mt-[100px] text-white">
+                    <h2 class="text-xl text-[#FF7628]"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h2>
+                    <p class="text-[18px] font-[400px] text-[#141135] leading-[32px] paprika-regular">Lesser Replenish bearing they’re him cattle kind dominion. You <br>
+                      which fill place. Land she’d subdue divided gathering blessed <br>
+                      seasons it. Without, wherein day</p>
+                      <h3 class="mt-8 text-[25px]  font-semibold text-[#141135] leading-[40x] font-Sans">Lukan Depina</h3>
+                      <p class="text-[16px] font-[400px] text-[#726E9E] leading-[25px] paprika-regular">Ceo And Head Of Idea</p>
+                </div>
+            </div> 
+          </div>
+          <!-- Navigation Buttons -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-5 transform justify-between ">
+            <a href="#slide3" class="btn btn-circle bg-[#1BBF00]">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-[#1BBF00]">❯</a>
+          </div>
+      </div>
+      </div>
+     </div>
+     <!-- You May Also Like  -->
+      <div class="mt-24 mb-24">
+        <div class="container">
+          <h2 class="text-[50px]  font-bold text-[#141135] leading-[65x] font-Sans ml-48">You May Also Like </h2>
+          <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-20">
+            <div class="mt-14">
+              <div class="w-[379px] h-[209px] rounded-xl bg-purple-400  mb-10">
+
+              </div>
+              <div class="w-[379px] h-[209px] rounded-xl bg-rose-400 mb-10">
+
+              </div>
+              <div class="w-[379px] h-[209px] rounded-xl bg-emerald-400">
+
+              </div>
+            
+            </div>
+           <div class="">
+            <div class="">
+              <div class="mt-16">
+                <ul class="flex gap-8 text-[18px] font-semibold text-[#726E9E] paprika-regular leading-[24px] ">
+                  <li class="hover:text-[#1BBF00] ">News </li>
+                  <li class="hover:text-[#1BBF00] ">By</li>
+                  <li class="hover:text-[#1BBF00] ">Tomas Nikelson </li>
+                  <li class="hover:text-[#1BBF00] ">Posted</li>
+                  <li class="hover:text-[#1BBF00] ">5 Hours Ago </li>
+                </ul>
+              </div>
+              <h2 class="text-[30px]  font-bold text-[#141135] leading-[55px] mt-4 font-Sans">Punto Pago Allows Quick And Secure  <br>
+                Payments For Services In Panama</h2>
+             <div>
+              <p class="text-[18px] font-bold text-[#141135] leading-[24px] font-Sans relative mt-8 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-16 absolute -mt-7">
+             </div>
+            </div> <div>
+              <div class="mt-12">
+                <ul class="flex gap-8 text-[18px] font-semibold text-[#726E9E] paprika-regular leading-[24px] ">
+                  <li class="hover:text-[#1BBF00] ">News </li>
+                  <li class="hover:text-[#1BBF00] ">By</li>
+                  <li class="hover:text-[#1BBF00] ">Tomas Nikelson </li>
+                  <li class="hover:text-[#1BBF00] ">Posted</li>
+                  <li class="hover:text-[#1BBF00] ">5 Hours Ago </li>
+                </ul>
+              </div>
+              <h2 class="text-[30px]  font-bold text-[#141135] leading-[55px] mt-4 font-Sans">Punto Pago Allows Quick And Secure  <br>
+                Payments For Services In Panama</h2>
+             <div>
+              <p class="text-[18px] font-bold text-[#141135] leading-[24px] font-Sans relative mt-8 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-16 absolute -mt-7">
+             </div>
+            </div> <div>
+              <div class="mt-12">
+                <ul class="flex gap-8 text-[18px] font-semibold text-[#726E9E] paprika-regular leading-[24px] ">
+                  <li class="hover:text-[#1BBF00] ">News </li>
+                  <li class="hover:text-[#1BBF00] ">By</li>
+                  <li class="hover:text-[#1BBF00] ">Tomas Nikelson </li>
+                  <li class="hover:text-[#1BBF00] ">Posted</li>
+                  <li class="hover:text-[#1BBF00] ">5 Hours Ago </li>
+                </ul>
+              </div>
+              <h2 class="text-[30px]  font-bold text-[#141135] leading-[55px] mt-4 font-Sans">Punto Pago Allows Quick And Secure  <br>
+                Payments For Services In Panama</h2>
+             <div>
+              <p class="text-[18px] font-bold text-[#141135] leading-[24px] font-Sans relative mt-8 ">  Read More 
+              </p>
+              <img src="./images/rect.png" alt="" class="ml-16 absolute -mt-7">
+             </div>
+            </div>
+           </div>
+
+          </div>
+        </div>
+
+      </div>
+   <footer class="bg-[#48409C]">
+    <div class="container pb-32">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="pt-16">
+          <img src="./images/Logo.png" alt="">
+          <p class="font-normal text-[18px] text-[#FEFEFE] mt-8">Demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page</p>
+        </div>
+        <div class="pt-16">
+          <h3 class="text-[24px]  font-[600px] text-[#FEFEFE] leading-[33px] font-Sans">Features</h3>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Home</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">About</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Benifit</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Pricing</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Blog</p>
+        </div>
+        <div class="pt-16">
+          <h3 class="text-[24px]  font-[600px] text-[#FEFEFE] leading-[33px] font-Sans">Products</h3>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Task Management</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Company growth</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Time tracking</p>
+        </div>
+        <div class="pt-16">
+          <h3 class="text-[24px]  font-[600px] text-[#FEFEFE] leading-[33px] font-Sans">Support</h3>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Customer service</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Accessibility</p>
+          <p class="mt-4 text-[20px]  font-[600px] text-[#FEFEFE] leading-[24px] font-Sans">Contact us</p>
+        </div>
+        
+      </div>
+      <h1 class="text-center mt-14 tex-6xl font-bold text-rose-300 paprika-regular">DESIGN BY MD:SULAYMAN HOSEN ABIR</h1>
+    </div>
+   </footer>
+
+    <script src="./tailwind.config.js"></script>
+</body>
+</html>
